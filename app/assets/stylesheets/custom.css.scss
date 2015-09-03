@@ -3,3 +3,15 @@
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+
+.alert-notice {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fcf8e3), to(#f8efc0));
+    background-image: -webkit-linear-gradient(#fcf8e3 0%, #f8efc0 100%);
+    background-image: -moz-linear-gradient(#fcf8e3 0%, #f8efc0 100%);
+    background-image: -o-linear-gradient(#fcf8e3 0%, #f8efc0 100%);
+    background-image: linear-gradient(#fcf8e3 0%, #f8efc0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #f5e79e;
+}
